@@ -196,3 +196,6 @@ MY SYSTEM
 - **Development tools**: Visual Studio Code + Python extension
 
 All information is relevant for the latest version of Returnal Audio, i.e., for the beta
+
+<img width="2559" height="1358" alt="зображення" src="https://github.com/user-attachments/assets/9fcf4381-8401-4efd-9ea5-599a257dd507" />
+
