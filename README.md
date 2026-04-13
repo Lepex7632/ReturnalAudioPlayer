@@ -78,6 +78,24 @@ Sleep timer на базе QTimer
 Активное использование таймеров (QTimer) для анимаций вместо чистого declarative подхода
 Нет разделения на Model / View / Controller в классическом смысле (всё в MusicPlayer)
 
+МОЯ СИСТЕМА
+
+ReturnalAudio разработан и протестирован на следующей системе:
+
+Оборудование
+CPU: AMD Ryzen 5 5600G
+GPU: AMD Radeon RX 7700 XT
+ОЗУ: 32 ГБ DDR4
+Накопитель: NVMe SSD
+Программная среда
+Операционная система: Windows 11 (основная платформа разработки и тестирования)
+Python: 3.13.12
+Основной фреймворк: PyQt5
+Дополнительные библиотеки: mutagen (для чтения метаданных аудио)
+Инструменты разработки: Visual Studio Code + расширение Python 
+
+Вся информация актуальна для последней версии Returnal Audio, то есть для беты
+
 ENG-АНГЛ
 
 Technical Architecture of ReturnalAudio
@@ -159,7 +177,7 @@ Heavy use of paintEvent — high rendering load, but results in a very beautiful
 Active use of QTimer for animations instead of a purely declarative approach
 No classic Model/View/Controller separation (everything lives inside MusicPlayer)
 
-МОЯ СИСТЕМА-MY SYSTEM
+MY SYSTEM
 
 **ReturnalAudio** is developed and tested on the following system:
 
@@ -169,9 +187,12 @@ No classic Model/View/Controller separation (everything lives inside MusicPlayer
 - **RAM**: 32 GB DDR4
 - **Storage**: NVMe SSD 
 
+
 ### Software Environment
 - **Operating System**: Windows 11 (primary development and testing platform)
 - **Python**: 3.13.12
 - **Main framework**: PyQt5
 - **Additional libraries**: mutagen (for reading audio metadata)
 - **Development tools**: Visual Studio Code + Python extension
+
+All information is relevant for the latest version of Returnal Audio, i.e., for the beta
