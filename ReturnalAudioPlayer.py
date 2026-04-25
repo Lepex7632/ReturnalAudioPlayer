@@ -1,12 +1,5 @@
 """
 ReturnalAudio — Enhanced Music Player
-Improvements:
-  1. EQ via QMediaPlayer (no external deps)  — visual EQ with real-time bass/mid/treble
-  2. Mini-player Spotify fix — background polling, proper UI thread updates
-  3. Lyrics panel — LRCLib (free, no key), synced + plain text, fallback lyrics.ovh
-  4. Grid view — card buttons with embedded cover art + iTunes online fallback
-  5. Bug fixes & optimisations
-"""
 
 import sys, os, json, math, random, datetime, threading, urllib.request, urllib.parse
 import re as _re
